@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkolivegreen;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+header:hover{
+    cursor: progress;
+    color: cyan;
+    transition: all .9s ease-in-out;
+    background-color: darkolivegreen;
+}
+#main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+article {
+    width: 30%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    /* display: block; */
+}
+h2 {
+    margin-bottom: 1rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+article>img:hover{
+    transform: scale(1.1);
+
+}
+p{
+    color: yellow;
+}
+#jav{
+    width: 350px;
+    height: 200px;
+}
+h2:hover{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    transition: 600ms;
+}
+main>div>article>p:hover{
+    background-color: darkgrey;
+    opacity: .8;
+    font-size: 13px;
+    transform: 800ms;
+    border-radius: 5px;
+}
+.imag{
+    /* display: contents;
+    justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.imag>.pho>.pp{
+    width:  300px;
+    height: 300px;
+    border-radius: 7px;
+
+}
+.imag>.pho>.ppp{
+    width:  400px;
+    height: 300px;
+    border-radius: 7px;
+
+}
+.pic:hover{
+    cursor: progress;
+    transform: scale(1.092);
+}
+h3{
+    font-size: 20px;
+    color: lightcyan;
+}
+.pho h3:hover{
+    text-shadow: 3px 3px 7px red;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 600ms;
+
+}
